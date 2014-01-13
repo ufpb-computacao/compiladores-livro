@@ -1,0 +1,56 @@
+<!--
+  rudder-doc-docinfo.xml
+  DocBook document information file for rudder-doc.txt.
+-->
+  <edition>v1.0</edition>
+
+  <revhistory>
+    <revision>
+      <revnumber>v1.0</revnumber>
+      <date>Março 2013</date>
+      <authorinitials>Bruno Jefferson de Sousa</authorinitials>
+      <revremark>
+        Primeira versão do livro
+      </revremark>
+    </revision>
+  </revhistory>
+
+
+  <authorgroup>
+
+    <author>
+      <firstname>Bruno</firstname>
+      <surname>Jefferson</surname>
+      <affiliation>
+        <jobtitle>Professor</jobtitle>
+        <orgname>Universidade Federal da Paraíba</orgname>
+      </affiliation>
+      <authorblurb>
+        <para>
+          Principal contribuidor do livro.
+        </para>
+      </authorblurb>
+    </author>
+
+    <author>
+      <firstname>Jorge</firstname>
+      <surname>Dias</surname>
+      <affiliation>
+        <jobtitle>Professor</jobtitle>
+        <orgname>Universidade Federal da Paraíba</orgname>
+      </affiliation>
+      <authorblurb>
+        <para>
+          Principal contribuidor do livro.
+        </para>
+      </authorblurb>
+    </author>
+
+    <editor>
+      <firstname>Eduardo</firstname>
+      <surname>Medeiros</surname>
+      <othername>Santana</othername>
+    </editor>
+
+  </authorgroup>
+  
