@@ -1,0 +1,14 @@
+/*  Este arquivo pode ser utilizado para geração de gráficos.
+http://www.graphviz.org/Gallery.php 
+*/
+
+digraph G {
+  Hello->World
+
+  subgraph cluster_letras {
+    a->b
+    b->c
+    c->a
+  }
+}
+
