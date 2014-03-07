@@ -5,6 +5,9 @@
 --
 
 import Data.List (isInfixOf)
+import Control.Monad (forM_)
+import System.FilePath (splitExtension)
+import System.Environment (getArgs)
 
 type Template = String
 
@@ -12,8 +15,11 @@ type Template = String
 templateName = "tikztempl.tex"
 
 -- Marcador para inserir o codigo da figura no template
-figureTag = "$$tikzfigure$$"
+figureTag = "%%tikzfigure%%"
 
+usage :: IO ()
+usage = do
+    putStrLn "Usage: tikz2eps <tikzfile>*"
 
 applyTemplate :: Template -> String -> String
 applyTemplate t fig = unlines $ concat [prolog, lines fig, epilog]
@@ -23,7 +29,24 @@ applyTemplate t fig = unlines $ concat [prolog, lines fig, epilog]
 readTemplate :: FilePath -> IO Template
 readTemplate = readFile
 
+outputFileName :: FilePath -> FilePath
+outputFileName = (++".tex") . fst . splitExtension 
+
+-- outputFileName fname = noext ++ ".tex"
+--    where (noext, _) = splitExtension fname 
+
+processFile :: Template -> FilePath -> IO ()
+processFile temp f = do
+    putStrLn $ "Processing file " ++ f
+    fig <- readFile f
+    let result = applyTemplate temp fig 
+    writeFile (outputFileName f) result
+
 main = do 
-    template <- readTemplate templateName
-    putStrLn "ok"
+    args <- getArgs
+    if null args then 
+        usage
+    else do
+        template <- readTemplate templateName
+        forM_ args (processFile template) 
 
