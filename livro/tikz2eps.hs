@@ -34,10 +34,10 @@ latex :: FilePath -> IO ()
 latex f = system ("latex " ++ f) >> return ()
 
 dvips :: FilePath -> IO ()
-dvips f = system ("dvips -E " ++ f ++ " -o " (replaceExtension f ".eps"))
+dvips f = system ("dvips -E " ++ f ++ " -o " ++ (replaceExtension f ".eps")) >> return ()
 
 epstool :: FilePath -> IO ()
-epstool f = system ("epstool --copy --bbox " ++ f ++ " " ++ outFile)
+epstool f = system ("epstool --copy --bbox " ++ f ++ " " ++ outFile) >> return ()
     where outFile = replaceExtension ((dropExtension f) ++ "_bb") ".eps"
 
 templateSubst :: Template -> FilePath -> IO ()

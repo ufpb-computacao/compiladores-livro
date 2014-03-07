@@ -30,16 +30,6 @@ applyTemplate t fig = unlines $ concat [prolog, lines fig, epilog]
 readTemplate :: FilePath -> IO Template
 readTemplate = readFile
 
-latex :: FilePath -> IO ()
-latex f = system ("latex " ++ f) >> return ()
-
-dvips :: FilePath -> IO ()
-dvips f = system ("dvips -E " ++ f ++ " -o " (replaceExtension f ".eps"))
-
-epstool :: FilePath -> IO ()
-epstool f = system ("epstool --copy --bbox " ++ f ++ " " ++ outFile)
-    where outFile = replaceExtension ((dropExtension f) ++ "_bb") ".eps"
-
 templateSubst :: Template -> FilePath -> IO ()
 templateSubst temp f = do
     putStrLn $ "Processing file " ++ f
@@ -47,19 +37,6 @@ templateSubst temp f = do
     let result = applyTemplate temp fig 
     let texFile = replaceExtension f ".tex"
     writeFile texFile result
-
-processFile :: Template -> FilePath -> IO ()
-processFile temp f = do
-    putStrLn $ "Processing file " ++ f
-    fig <- readFile f
-    let result = applyTemplate temp fig 
-    let texFile = replaceExtension f ".tex"
-    writeFile texFile result
-    latex texFile
-    let dviFile = replaceExtension f ".dvi"
-    dvips dviFile
-    let epsFile = replaceExtension f ".eps"
-    epstool epsFile
 
 main = do 
     args <- getArgs
