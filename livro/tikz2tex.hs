@@ -67,5 +67,4 @@ main = do
         usage
     else do
         template <- readTemplate templateName
-        forM_ args (processFile template) 
-
+        forM_ args (templateSubst template) 
