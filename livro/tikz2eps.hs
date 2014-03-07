@@ -56,10 +56,8 @@ processFile temp f = do
     let texFile = replaceExtension f ".tex"
     writeFile texFile result
     latex texFile
-    let dviFile = replaceExtension f ".dvi"
-    dvips dviFile
-    let epsFile = replaceExtension f ".eps"
-    epstool epsFile
+    dvips $ replaceExtension f ".dvi"
+    epstool $ replaceExtension f ".eps"
 
 main = do 
     args <- getArgs
