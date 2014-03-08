@@ -20,7 +20,7 @@ figureTag = "%%tikzfigure%%"
 
 usage :: IO ()
 usage = do
-    putStrLn "Usage: tikz2eps <tikzfile>*"
+    putStrLn "Usage: tikz2tex <tikzfile>*"
 
 applyTemplate :: Template -> String -> String
 applyTemplate t fig = unlines $ concat [prolog, lines fig, epilog]
