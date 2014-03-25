@@ -1,0 +1,19 @@
+\begin{figure}[ht]
+\begin{center}
+  \begin{tikzpicture}[font=\footnotesize,minimum width=4cm]
+    \node[color=gray] (chr) at (0,2.8) {c\'{o}digo intermedi\'{a}rio};
+    \node[draw] (lex) at (0,2.1) {otimiza\c{c}\~{a}o de c\'{o}digo};
+    \node[color=gray] (tok) at (0,1.4) {c\'{o}digo otimizado};
+    \node[draw] (syn) at (0,0.7) {geração de c\'{o}digo};
+    \node[color=gray] (arv) at (0,0) {c\'{o}digo de destino};
+    \node[draw] (sem) at (0,-0.7) {otimiza\c{c}\~{a}o};
+    \node[color=gray] (aan) at (0,-1.4) {c\'{o}digo final};
+    \draw[->,shorten <=-3pt] (chr) -- (lex);
+    \draw (lex) -- (tok);
+    \draw[->,shorten <=-3pt] (tok) -- (syn);
+    \draw (syn) -- (arv);
+    \draw[->,shorten <=-3pt] (arv) -- (sem);
+    \draw (sem) -- (aan);
+  \end{tikzpicture}
+\end{center}
+\end{figure}
