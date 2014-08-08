@@ -1,0 +1,33 @@
+\begin{figure}[ht]
+\begin{center}
+  \begin{tikzpicture}
+    [block/.style={rectangle, minimum size=1cm, draw=black, thick, font=\small},
+     data/.style={font=\small}]
+
+    %%% interpretador
+    \node (in)     [data]  at (-0.2, 0.0) {entrada};
+    \node (interp) [block] at (2.0, 0.0) {interpretador};
+    \node (out)    [data]  at (4.0, 0.0) {sa\'{i}da};
+    \node (prog)   [data]  at (2.0, 1.2) {programa};
+    
+    \path (in) edge[->] (interp)
+          (interp) edge[->] (out);
+
+    \path (prog) edge[->] (interp);
+
+    %%% compilador 
+    \node (prog2) [data]  at (8.0, 2.0)  {programa};
+    \node (comp)  [block] at (8.0, 0.8)  {compilador};
+    \node (in2)   [data]  at (5.8, -0.8) {entrada};
+    \node (exe)   [block] at (8.0, -0.8) {execut\'{a}vel};
+    \node (out2)  [data]  at (10.0, -0.8) {sa\'{i}da};
+
+    \path (prog2) edge[->] (comp)
+          (comp) edge[->] (exe);
+
+    \path (in2) edge[->] (exe)
+          (exe) edge[->] (out2);
+    
+  \end{tikzpicture}
+\end{center}
+\end{figure}
