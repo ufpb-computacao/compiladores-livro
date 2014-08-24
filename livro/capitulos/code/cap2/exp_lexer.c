@@ -114,8 +114,8 @@ void inicializa_analise(char *prog)
 Token *proximo_token(Token *tok)
 {
   char c;
-  char valor[200];        // string temporaria para obter valor de um numero
-  int  vpos = 0;          // posicao na string de valor
+  char valor[200];    // string para obter valor de um numero
+  int  vpos = 0;      // posicao na string de valor
 
   c = le_caractere();
   // pula todos os espacos em branco
