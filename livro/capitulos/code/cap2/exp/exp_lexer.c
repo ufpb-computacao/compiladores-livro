@@ -43,7 +43,7 @@ typedef struct
 // --- variaveis globais -------------------------------------------
 
 // string contendo os caracteres de operadores
-char *ops = "+-*/";
+const char *ops = "+-*/";
 
 // string que contem o codigo que esta em analise
 char *codigo;
