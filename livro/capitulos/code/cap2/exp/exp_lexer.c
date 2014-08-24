@@ -116,8 +116,6 @@ Token *proximo_token(Token *tok)
   char c;
   char valor[200];        // string temporaria para obter valor de um numero
   int  vpos = 0;          // posicao na string de valor
-  int  completo = FALSE;
-  
 
   c = le_caractere();
   // pula todos os espacos em branco
