@@ -37,7 +37,7 @@ typedef struct
   int valor;
 } Token; 
 
-// funcao para obter o token atual
+// funcao para criar um token
 extern Token *token();
 
 // funcao principal do analisador lexico
