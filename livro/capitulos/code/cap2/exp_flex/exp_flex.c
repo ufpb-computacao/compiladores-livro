@@ -107,6 +107,8 @@ int main(int argc, char **argv)
 
   printf("\n");
 
+  finaliza_analise(); 
+
   return 0;
 }
 
