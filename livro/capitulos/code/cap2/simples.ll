@@ -7,7 +7,8 @@ EMAIL [[:alnum:]\._]+@[[:alnum:]]+\.[[:alnum:]]+
 
 {CPF}   { printf("CPF\n"); }
 {EMAIL} { printf("EMAIL\n"); }
-.*      { printf("Token nao reconhecido\n"); }
+.       { printf("Caractere nao reconhecido\n"); }
+
 %%
 
 // funcao principal que chama o analisador
