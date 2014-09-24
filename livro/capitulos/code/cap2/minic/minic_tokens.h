@@ -17,6 +17,8 @@
 #define TOK_NUM                                 5
 #define TOK_PONT                                6
 #define TOK_OP                                  7
+#define TOK_STRING                              8
+#define TOK_PROLOGO                             9
 #define TOK_ERRO                                100
 
 // valores para palavra-chave 
@@ -24,6 +26,7 @@
 #define PC_ELSE                                 1
 #define PC_WHILE                                2
 #define PC_RETURN                               3
+#define PC_PRINTF                               4
 
 // valores para pontuacao
 #define PARESQ                                  1
