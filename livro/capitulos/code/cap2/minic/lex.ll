@@ -64,18 +64,3 @@ Token *token(int tipo, int valor)
   return &tok;
 }
 
-/*
-int main()
-{
-  Token *tok = yylex();
-
-  printf("Tipo: %d -- Valor: %d\n", tok->tipo, tok->valor);
-
-  while (tok->tipo != TOK_ID) {
-    tok = yylex();
-    printf("Tipo: %d -- Valor: %d\n", tok->tipo, tok->valor);
-  }
-  
-  return 0;
-}
-*/

@@ -26,6 +26,11 @@ void inicializa_analise(char *nome_arq)
 
 void finaliza_analise()
 {
+  // destroi tabelas
+  destroi_tab_strings();
+  destroi_tab_simbolos(); 
+
+  // fecha arquivo de entrada
   fclose(yyin);
 }
 
