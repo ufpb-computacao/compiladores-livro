@@ -54,5 +54,9 @@ typedef struct
   int valor;
 } Token;
 
+// declaracao do analisador lexico
+extern Token * yylex();
+
+
 #endif                                           // __MINIC_TOKENS_H
 

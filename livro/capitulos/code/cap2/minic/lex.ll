@@ -64,6 +64,7 @@ Token *token(int tipo, int valor)
   return &tok;
 }
 
+/*
 int main()
 {
   Token *tok = yylex();
@@ -77,4 +78,4 @@ int main()
   
   return 0;
 }
-
+*/

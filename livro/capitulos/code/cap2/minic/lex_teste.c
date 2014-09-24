@@ -29,14 +29,68 @@ void finaliza_analise()
   fclose(yyin);
 }
 
+void imprime_token(Token *tok)
+{
+  char *tipo; 
+
+  switch (tok->tipo) {
+  case TOK_PCHAVE: 
+    tipo = "palavra chave";
+    break;
+
+  case TOK_ID:
+    tipo = "identificador";
+    break;
+
+  case TOK_NUM:
+    tipo = "numero";
+    break;
+
+  case TOK_PONT:
+    tipo = "pontuacao";
+    break;
+
+  case TOK_OP:
+    tipo = "operador";
+    break;
+
+  case TOK_STRING:
+    tipo = "string";
+    break;
+
+  case TOK_PROLOGO:
+    tipo = "prologo";
+    break;
+
+  case TOK_ERRO:
+    tipo = "erro";
+    break;
+
+  default:
+    tipo = "desconhecido";
+  }
+
+  printf("Tipo: %s - Valor: %d\n", tipo, tok->valor);
+}
+
 int main(int argc, char **argv)
 {
+  Token *tok;
+
   if (argc < 2) {
     printf("Uso: mclex <arquivo>\n");
     return 0; 
   }
 
-  printf("Entrada: %s\n", argv[1]);
+  inicializa_analise(argv[1]);
+
+  tok = yylex();
+  while (tok != NULL) {
+    imprime_token(tok);
+    tok = yylex();
+  }
+
+  finaliza_analise();
 
   return 0; 
 }
