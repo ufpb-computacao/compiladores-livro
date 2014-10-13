@@ -1,8 +1,7 @@
-== Livro de disciplina
+== Livro de Introdução a Compiladores
 
-Este repositório contém um livro de uma disciplina.
+* A produção deste livro ainda não foi iniciada
+* Não estamos utilizando nenhum livro nesta disciplina
 
-Para conhecer o seu processo de produção consulte 
-https://github.com/edusantana/producao-computacao-ead-ufpb.
-
+Em caso de dúvidas consulte o https://github.com/edusantana/guia-geral-ead-computacao-ufpb[guia do curso].
 
