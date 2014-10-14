@@ -1,5 +1,5 @@
 mclex: lexer.c lexer.h tabelas.c lex_teste.c
-	clang -o mclex lexer.c tabelas.c lex_teste.c
+	gcc -o mclex lexer.c tabelas.c lex_teste.c
 
 lexer.c: lex.ll
 	flex -DYY_DECL="Token * yylex()" lex.ll
