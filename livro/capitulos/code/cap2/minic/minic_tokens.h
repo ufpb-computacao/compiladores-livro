@@ -55,6 +55,8 @@ typedef struct
 } Token;
 
 // declaracao do analisador lexico
+#define YY_DECL Token * yylex()
+
 extern Token * yylex();
 
 
