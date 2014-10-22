@@ -1,36 +1,35 @@
 \begin{figure}[ht]
 \begin{center}
 \begin{tikzpicture}
-%    [int/.style={draw, shape=circle, minimum size=8mm},
-%     folha/.style={draw, shape=rectangle},
-%     level distance=1.2cm,
-%     level 1/.style={sibling distance=4.2em},
-%     level 2/.style={sibling distance=2.8em},
-%     level 3/.style={sibling distance=1.2em},
-%     level 4/.style={sibling distance=0.8em}]
+    [
+     level distance=1.2cm,
+     level 1/.style={sibling distance=5.6em},
+     level 2/.style={sibling distance=3.6em},
+     level 3/.style={sibling distance=2.2em},
+     level 4/.style={sibling distance=1.8em}]
 
   \node (ifroot) at (0.0, 0.0) {if}
-    child { node {`>`}
-      child { node { `x` } }
-      child { node { `2` } }
+    child { node {>}
+      child { node { x } }
+      child { node { 2 } }
     }
-    child { node {`=`} 
-      child { node { `y` } }
-      child { node { `*` } 
-        child { node { `-` } 
-          child { node { `x` } }
-          child { node { `2` } }
+    child { node { = } 
+      child { node { y } }
+      child { node { * } 
+        child { node { - } 
+          child { node { x } }
+          child { node { 2 } }
         }
-        child { node { `7` } }
+        child { node { 7 } }
       }
     }
-    child { node {`=`} 
-      child { node { `y` } }
-      child { node { `+` } 
-        child { node { `x` } }
-        child { node { `*` } 
-          child { node { `2` } }
-          child { node { `5` } }
+    child { node { = } 
+      child { node { y } }
+      child { node { + } 
+        child { node { x } }
+        child { node { * } 
+          child { node { 2 } }
+          child { node { 5 } }
         }
       }
     };
