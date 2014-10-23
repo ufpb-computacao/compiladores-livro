@@ -1,0 +1,23 @@
+\begin{figure}[ht]
+\begin{center}
+  \begin{tikzpicture}[font=\footnotesize,minimum width=4cm]
+    \node[color=gray] (chr) at (0,2.8) {caracteres};
+    \node[draw] (lex) at (0,2.1) {an\'{a}lise l\'{e}xica};
+    \node[color=gray] (tok) at (0,1.4) {\emph{tokens}};
+    \node[draw] (syn) at (0,0.7) {an\'{a}lise sint\'{a}tica};
+    \node[color=gray] (arv) at (0,0) {\'{a}rvore sint\'{a}tica};
+    \node[draw] (sem) at (0,-0.7) {an\'{a}lise sem\^{a}ntica};
+    \node[color=gray] (aan) at (0,-1.4) {\'{a}rvore com anota\c{c}\~{o}es};
+    \node[draw] (ger) at (0,-2.1) {gera\c{c}\~{a}o de c\'{o}d. int.};
+    \node[color=gray] (cod) at (0,-2.8) {c\'{o}digo intermedi\'{a}rio};
+    \draw[->] (chr) -- (lex);
+    \draw (lex) -- (tok);
+    \draw[->] (tok) -- (syn);
+    \draw (syn) -- (arv);
+    \draw[->] (arv) -- (sem);
+    \draw (sem) -- (aan);
+    \draw[->,shorten <=-3pt] (aan) -- (ger);
+    \draw[->,shorten >=-3pt] (ger) -- (cod);
+  \end{tikzpicture}
+\end{center}
+\end{figure}
