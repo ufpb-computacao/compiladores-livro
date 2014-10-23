@@ -5,9 +5,9 @@
     \draw[thick] (-2.3,0.5) rectangle node[font=\small] (lex) {l\'{e}xico} (-0.7,-0.5);
     \draw[thick] (1.0,0.5) rectangle node[font=\small] (syn) {sint\'{a}tico} (2.6,-0.5);
     \node[font=\small]  (dst) at (3.8,0) {\'{a}rvore};
-    \draw[->,shorten >=0.6pt] (fnt) -- (-2.3,0);
-    \draw[->,shorten >=0.6pt] (-0.7,0) -- node[above] {\textit{tokens}} (1.0,0);
-    \draw[->] (2.6,0) -- (dst);
+    \draw[-latex,shorten >=0.6pt] (fnt) -- (-2.3,0);
+    \draw[-latex,shorten >=0.6pt] (-0.7,0) -- node[above] {\textit{tokens}} (1.0,0);
+    \draw[-latex] (2.6,0) -- (dst);
   \end{tikzpicture}
 \end{center}
 \end{figure}
