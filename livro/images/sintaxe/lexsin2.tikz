@@ -1,0 +1,18 @@
+\begin{figure}[ht]
+\begin{center}
+  \begin{tikzpicture}
+    \node[font=\small]  (fnt) at (-3.5,0) {caracteres};
+    \draw[thick] (-2.3,0.5) rectangle node[font=\small] (lex) {l\'{e}xico} (-0.7,-0.5);
+    \draw[thick] (1.0,0.5) rectangle node[font=\small] (syn) {sint\'{a}tico} (2.6,-0.5);
+    \node[font=\small]  (dst) at (3.8,0) {\'{a}rvore};
+    \draw[-latex,shorten >=0.6pt] (fnt) -- (-2.3,0);
+
+    \draw[-latex] (1.0, 0) .. controls +(145:0.8cm) and +(35:0.8cm) 
+                           .. node[font=\small,above] {\texttt{proxtoken()}} (-0.7, 0);
+    \draw[-latex] (-0.7, 0) .. controls +(315:0.8cm) and +(225:0.8cm) 
+                            .. node[font=\small,below] {\textit{token}} (1.0, 0);
+
+    \draw[-latex] (2.6,0) -- (dst);
+  \end{tikzpicture}
+\end{center}
+\end{figure}
