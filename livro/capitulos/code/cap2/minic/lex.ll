@@ -1,7 +1,7 @@
 
 %option noyywrap 
 %option nodefault
-%option outfile="lexer.c" header-file="lexer.h"
+%option outfile="lexer.c"
 
 %top {
 #include "minic_tokens.h"

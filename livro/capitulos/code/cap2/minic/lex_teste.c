@@ -10,7 +10,10 @@
 #include <stdlib.h>
 
 #include "minic_tokens.h"
-#include "lexer.h"
+//#include "lexer.h"
+#include "tabelas.h"
+
+extern FILE *yyin;
 
 void inicializa_analise(char *nome_arq)
 {
