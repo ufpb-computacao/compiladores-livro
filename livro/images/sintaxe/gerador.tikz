@@ -1,0 +1,22 @@
+\begin{figure}[ht]
+\begin{center}
+  \begin{tikzpicture}
+    [block/.style={rectangle, minimum size=1cm, minimum width=1.6cm, draw=black, thick, font=\small},
+     data/.style={font=\small}]
+
+    %%% compilador 
+    \node (prog2) [data]  at (8.0, 2.0)  {especifica\c{c}\~{a}o};
+    \node (comp)  [block] at (8.0, 0.8)  { bison  };
+    \node (in2)   [data]  at (5.8, -0.8) {\textit{tokens}};
+    \node (exe)   [block] at (8.0, -0.8) {analisador};
+    \node (out2)  [data]  at (10.0, -0.8) {\'{a}rvore};
+
+    \path (prog2) edge[->] (comp)
+          (comp) edge[->] (exe);
+
+    \path (in2) edge[->] (exe)
+          (exe) edge[->] (out2);
+    
+  \end{tikzpicture}
+\end{center}
+\end{figure}

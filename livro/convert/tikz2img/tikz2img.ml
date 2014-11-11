@@ -84,7 +84,7 @@ let converte_figura arq =
             dvips arq_dvi arq_eps_pre;
             epstool arq_eps_pre arq_eps;
             convert arq_eps arq_png;
-            "rm -f *.log *.aux *.dvi *.eps"]
+            "rm -f *.log *.aux *.dvi"]
 
 
 (* funcao principal *)

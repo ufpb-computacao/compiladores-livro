@@ -1,0 +1,26 @@
+\begin{figure}[ht]
+\begin{center}
+\begin{tikzpicture}
+%    [int/.style={draw, shape=circle, minimum size=8mm},
+%     folha/.style={draw, shape=rectangle},
+%     level distance=1.2cm,
+%     level 1/.style={sibling distance=4.2em},
+%     level 2/.style={sibling distance=2.8em},
+%     level 3/.style={sibling distance=1.2em},
+%     level 4/.style={sibling distance=0.8em}]
+
+  \node (root1) at (0.0, 0.0) {$E$}
+    child { node {$\mathbf{num}$} };
+
+  \node (root2) at (4.0, 0.8) {$E$}
+    child { node {$E$} 
+      child { node {$\mathbf{num}$} }
+    }
+    child { node {+} }
+    child { node {$E$} 
+      child { node {$\mathbf{num}$} }
+    };
+
+\end{tikzpicture}
+\end{center}
+\end{figure}
