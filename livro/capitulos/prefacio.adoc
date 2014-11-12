@@ -1,18 +1,14 @@
-[[prefacio]]
-[preface]
-== Prefácio
 
-texto
 
-=== Público álvo
+[[como_estudar]]
+=== Como você deve estudar cada capítulo
 
-estudantes
+* Leia a visão geral do capítulo
+* Estude os conteúdos das seções
+* Realize as atividades no final do capítulo
+* Verifique se você atingiu os objetivos do capítulo
 
-=== Método de Elaboração
-
-Financiamento da capes.
-
-=== Contribuição
-
-Erros e etc.
-
+.Na sala de aula do curso
+* Tire dúvidas e discuta sobre as atividades do livro com outros integrantes do curso
+* Leia materiais complementares eventualmente disponibilizados
+* Realize as atividades propostas pelo professor da disciplina
