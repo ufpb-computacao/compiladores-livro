@@ -43,12 +43,14 @@ task :epub
 
 namespace "wip" do
 
+  file @BOOK_SOURCE
+
   desc "Create new wip file from book source"
   task "new" do
     cp "#{@BOOK_SOURCE}", "#{@BOOK_SOURCE_DIR}/wip.adoc"
   end
 
-  file WIP_ADOC do
+  file WIP_ADOC => [@BOOK_SOURCE] do
     Rake::Task["wip:new"].invoke
   end
 
@@ -57,7 +59,17 @@ namespace "wip" do
   desc "build book from #{@RELEASE_DIR}"
   task :build => [WIP_ADOC, :sync] do
     DRAFT_COMMAND = "--dblatex-opts '-P draft.mode=yes'"
-    system "#{@A2X_BIN} #{A2X_COMMAND} #{DRAFT_COMMAND} #{@RELEASE_DIR}/#{@BOOK_SOURCE_DIR}/wip.adoc"
+    prefacio_code_att = ""
+    PREFACIO_CODE_DIR = "#{@RELEASE_DIR}/#{@BOOK_SOURCE_DIR}/capitulos/code/prefacio"
+    if Dir.exist?(PREFACIO_CODE_DIR) then
+      Dir.chdir(PREFACIO_CODE_DIR) do
+        prefacio_code_file = Dir.glob("*").first
+        if (prefacio_code_file) then
+          prefacio_code_att = "-a prefacio-code=#{prefacio_code_file}"
+        end
+      end
+    end
+    system "#{@A2X_BIN} #{A2X_COMMAND} #{DRAFT_COMMAND} #{prefacio_code_att} #{@RELEASE_DIR}/#{@BOOK_SOURCE_DIR}/wip.adoc"
   end
 
   desc "Open wip pdf"
@@ -208,14 +220,6 @@ namespace "config" do
 
 end
 
-
-desc "Download new Rakefile"
-task :uprake do
-  `wget --output-document=Rakefile https://raw.githubusercontent.com/edusantana/asciidoc-book-template-with-rake-and-github/master/Rakefile`
-  `wget --output-document=livro/capitulos/feedback.adoc https://raw.githubusercontent.com/edusantana/asciidoc-book-template-with-rake-and-github/master/livro/capitulos/feedback.adoc`
-end
-
-
 desc "Build images from R files"
 task :r
 task :sync => :r
@@ -320,12 +324,23 @@ namespace "release" do
     editora_file = "#{release_dir}/livro/editora/editora.pdf"
     livro_source = "#{release_dir}/livro/livro.asc"
     livro_pdf = "#{release_dir}/livro/livro.pdf"
+    
+    prefacio_code_att = ""
+    PREFACIO_CODE_DIR = "#{@RELEASE_DIR}/#{@BOOK_SOURCE_DIR}/capitulos/code/prefacio"
+    if Dir.exist?(PREFACIO_CODE_DIR) then
+      Dir.chdir(PREFACIO_CODE_DIR) do
+        prefacio_code_file = Dir.glob("*").first
+        if (prefacio_code_file) then
+          prefacio_code_att = "-a prefacio-code=#{prefacio_code_file}"
+        end
+      end
+    end
 
     directory release_dir
     file livro_source => [release_dir]
     file livro_pdf => [livro_source] do
       Dir.chdir(@RELEASE_DIR) do
-        @A2X_COMMAND="-v -k -f pdf --icons -a docinfo1 -a edition=#{@tag} -a lang=pt-BR -d book --dblatex-opts '-T computacao -P latex.babel.language=brazilian' -a livro-pdf"
+        @A2X_COMMAND="-v -k -f pdf --icons -a docinfo1 -a edition=#{@tag} -a lang=pt-BR -d book --dblatex-opts '-T computacao -P latex.babel.language=brazilian' -a livro-pdf #{prefacio_code_att}"
         system "#{@A2X_BIN} #{@A2X_COMMAND} livro/livro.asc"
       end
     end
