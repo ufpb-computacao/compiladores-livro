@@ -1,0 +1,61 @@
+[[appendix]]
+== Códigos completos
+
+=== Capítulo 2
+
+:cap: cap2
+:online: {gitrepo}/blob/{edition}/livro/capitulos/code/{cap}
+:local: code/{cap}
+
+
+:srcfile: exp_flex/Makefile
+
+==== {srcfile}
+
+.Código fonte
+{online}/{srcfile}[{local}/{srcfile}]
+
+.{srcfile}
+----
+include::{local}/{srcfile}[]
+----
+
+
+:srcfile: exp_flex/exp.ll
+
+==== {srcfile}
+
+.Código fonte
+{online}/{srcfile}[{local}/{srcfile}]
+
+.{srcfile}
+----
+include::{local}/{srcfile}[]
+----
+
+:srcfile: exp_flex/exp_tokens.h
+
+==== {srcfile}
+
+.Código fonte
+{online}/{srcfile}[{local}/{srcfile}]
+
+[source,c]
+.{srcfile}
+----
+include::{local}/{srcfile}[]
+----
+
+
+:srcfile: exp_flex/exp_flex.c
+
+==== {srcfile}
+
+.Código fonte
+{online}/{srcfile}[{local}/{srcfile}]
+
+[source,c]
+.{srcfile}
+----
+include::{local}/{srcfile}[]
+----
