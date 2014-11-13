@@ -10,12 +10,15 @@
 <ulink url="{gitrepo}/issues/1">Inclusão do código inteiro dos arquivos no apêndice;</ulink>
 <ulink url="{gitrepo}/issues/2">Limitando códigos a 70 carácteres por linha;</ulink>
 <ulink url="{gitrepo}/issues/3">Otimizando tamanho das imagens;</ulink>
-<ulink url="{gitrepo}/issues/4">Atulização dos links com a versão do livro;</ulink>
+<ulink url="{gitrepo}/issues/4">Atualização dos links com a versão do livro;</ulink>
 <ulink url="{gitrepo}/issues/5">Padronização da formatação de códigos e comandos;</ulink>
 <ulink url="{gitrepo}/issues/6">Elaboração de Índice Remissivo;</ulink>
 <ulink url="{gitrepo}/issues/7">Recomendação de info flex para acessar sua documentação no unix;</ulink>
 <ulink url="{gitrepo}/issues/8">Melhoria da leitura com listas horizontais;</ulink>
 <ulink url="{gitrepo}/issues/9">Elaboração dos Elementos de organização prévia;</ulink>
+<ulink url="{gitrepo}/issues/11">Negação de :alnum:;</ulink>
+<ulink url="{gitrepo}/issues/12">Elaboração de atividades com base nos objetivos dos capítulos;</ulink>
+<ulink url="{gitrepo}/issues/13">Revisão geral do texto;</ulink>
   </revremark>
 </revision>
 
