@@ -18,7 +18,7 @@ STRING \"[^\"\n]*\"
 %% 
 
 [[:space:]]  {  }  /* ignora espacos em branco */
-\/\/[^\n]*     {  }  /* elimina comentarios */
+\/\/[^\n]*     {  }  /* elimina comentarios de linha */
 
 "#include <stdio.h>"  { return token(TOK_PROLOGO, 0); }
 
