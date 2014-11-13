@@ -1,56 +1,47 @@
-<!--
-  rudder-doc-docinfo.xml
-  DocBook document information file for rudder-doc.txt.
--->
-  <edition>v1.0</edition>
+<edition>{edition}</edition>
 
-  <revhistory>
-    <revision>
-      <revnumber>v1.0</revnumber>
-      <date>Março 2013</date>
-      <authorinitials>Bruno Jefferson de Sousa</authorinitials>
-      <revremark>
-        Primeira versão do livro
-      </revremark>
-    </revision>
-  </revhistory>
+<revhistory>
+
+<revision>
+  <revnumber>v0.3.1</revnumber>
+  <date>13/11/2014</date>
+  <authorinitials>Eduardo</authorinitials>
+  <revremark>
+<ulink url="{gitrepo}/issues/1">Inclusão do código inteiro dos arquivos no apêndice;</ulink>
+<ulink url="{gitrepo}/issues/2">Limitando códigos a 70 carácteres por linha;</ulink>
+<ulink url="{gitrepo}/issues/3">Otimizando tamanho das imagens;</ulink>
+<ulink url="{gitrepo}/issues/4">Atulização dos links com a versão do livro;</ulink>
+<ulink url="{gitrepo}/issues/5">Padronização da formatação de códigos e comandos;</ulink>
+<ulink url="{gitrepo}/issues/6">Elaboração de Índice Remissivo;</ulink>
+<ulink url="{gitrepo}/issues/7">Recomendação de info flex para acessar sua documentação no unix;</ulink>
+<ulink url="{gitrepo}/issues/8">Melhoria da leitura com listas horizontais;</ulink>
+<ulink url="{gitrepo}/issues/9">Elaboração dos Elementos de organização prévia;</ulink>
+  </revremark>
+</revision>
 
 
-  <authorgroup>
-
-    <author>
-      <firstname>Bruno</firstname>
-      <surname>Jefferson</surname>
-      <affiliation>
-        <jobtitle>Professor</jobtitle>
-        <orgname>Universidade Federal da Paraíba</orgname>
-      </affiliation>
-      <authorblurb>
-        <para>
-          Principal contribuidor do livro.
-        </para>
-      </authorblurb>
-    </author>
-
-    <author>
-      <firstname>Jorge</firstname>
-      <surname>Dias</surname>
-      <affiliation>
-        <jobtitle>Professor</jobtitle>
-        <orgname>Universidade Federal da Paraíba</orgname>
-      </affiliation>
-      <authorblurb>
-        <para>
-          Principal contribuidor do livro.
-        </para>
-      </authorblurb>
-    </author>
-
-    <editor>
-      <firstname>Eduardo</firstname>
-      <surname>Medeiros</surname>
-      <othername>Santana</othername>
-    </editor>
-
-  </authorgroup>
+<revision>
+  <revnumber>v0.3.0</revnumber>
+  <date>12/11/2014</date>
+  <authorinitials>Andrei</authorinitials>
+  <revremark>
+    Escrita dos três capítulos do livro.
+  </revremark>
+</revision>
   
+</revhistory>
+
+<authorgroup>
+  <author>
+    <firstname>Andrei</firstname>
+    <surname>de Araujo Formiga</surname>
+  </author>
+</authorgroup>
+
+<othercredit>
+    <firstname>Eduardo</firstname>
+    <surname>Medeiros</surname>
+    <othername>Santana</othername>
+  <contrib>Editor</contrib>
+</othercredit>
+
