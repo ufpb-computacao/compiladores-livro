@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="957.14026"
+   height="214.19879"
+   id="svg3023"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="New document 2">
+  <defs
+     id="defs3025" />
+  <sodipodi:namedview
+     inkscape:document-units="mm"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.86831672"
+     inkscape:cx="636.20133"
+     inkscape:cy="-44.263907"
+     inkscape:current-layer="layer1"
+     id="namedview3027"
+     showgrid="false"
+     inkscape:window-width="1375"
+     inkscape:window-height="876"
+     inkscape:window-x="65"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     units="px"
+     fit-margin-top="5"
+     fit-margin-left="5"
+     fit-margin-bottom="5"
+     fit-margin-right="5" />
+  <metadata
+     id="metadata3029">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-46.357563,-21.608761)">
+    <g
+       id="g4888"
+       transform="translate(-1.2534069,0)">
+      <text
+         sodipodi:linespacing="125%"
+         id="text3108-2-9"
+         y="52.074863"
+         x="528.21234"
+         style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier New;-inkscape-font-specification:Courier New"
+         xml:space="preserve"><tspan
+           style="font-weight:bold;-inkscape-font-specification:Courier New Bold"
+           id="tspan3112-88-8"
+           y="52.074863"
+           x="528.21234"
+           sodipodi:role="line">Operadores: + - * /</tspan></text>
+      <g
+         transform="translate(58.394515,-18)"
+         id="g4410">
+        <g
+           id="g4328"
+           transform="translate(-121.76194,-18.020579)">
+          <rect
+             ry="0"
+             y="106.44242"
+             x="364.30984"
+             height="69.274422"
+             width="109.27442"
+             id="rect3242-3"
+             style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.72558147;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+          <text
+             sodipodi:linespacing="125%"
+             id="text3238-5"
+             y="145.32278"
+             x="418.94217"
+             style="font-size:20px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier New;-inkscape-font-specification:Sans Bold"
+             xml:space="preserve"><tspan
+               y="145.32278"
+               x="418.94217"
+               id="tspan3240-3"
+               sodipodi:role="line">TOK_OP</tspan></text>
+          <rect
+             ry="0"
+             y="106.44242"
+             x="474.30984"
+             height="69.274422"
+             width="109.27442"
+             id="rect3242-3-7"
+             style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.72558147;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+          <text
+             sodipodi:linespacing="125%"
+             id="text3238-5-8"
+             y="147.24661"
+             x="529.44507"
+             style="font-size:20px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier New;-inkscape-font-specification:Sans Bold"
+             xml:space="preserve"><tspan
+               y="147.24661"
+               x="529.44507"
+               id="tspan3240-3-7"
+               sodipodi:role="line">SOMA</tspan></text>
+        </g>
+        <g
+           transform="translate(109.44098,-18.020579)"
+           id="g4328-2">
+          <rect
+             ry="0"
+             y="106.44242"
+             x="364.30984"
+             height="69.274422"
+             width="109.27442"
+             id="rect3242-3-5"
+             style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.72558147;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+          <text
+             sodipodi:linespacing="125%"
+             id="text3238-5-82"
+             y="145.32278"
+             x="418.94217"
+             style="font-size:20px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier New;-inkscape-font-specification:Sans Bold"
+             xml:space="preserve"><tspan
+               y="145.32278"
+               x="418.94217"
+               id="tspan3240-3-3"
+               sodipodi:role="line">TOK_OP</tspan></text>
+          <rect
+             ry="0"
+             y="106.44242"
+             x="474.30984"
+             height="69.274422"
+             width="109.27442"
+             id="rect3242-3-7-1"
+             style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.72558147;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+          <text
+             sodipodi:linespacing="125%"
+             id="text3238-5-8-5"
+             y="147.24661"
+             x="529.44507"
+             style="font-size:20px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier New;-inkscape-font-specification:Sans Bold"
+             xml:space="preserve"><tspan
+               y="147.24661"
+               x="529.44507"
+               id="tspan3240-3-7-2"
+               sodipodi:role="line">MULT</tspan></text>
+        </g>
+        <g
+           transform="translate(-121.76194,60.435691)"
+           id="g4328-1">
+          <rect
+             ry="0"
+             y="106.44242"
+             x="364.30984"
+             height="69.274422"
+             width="109.27442"
+             id="rect3242-3-1"
+             style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.72558147;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+          <text
+             sodipodi:linespacing="125%"
+             id="text3238-5-1"
+             y="145.32278"
+             x="418.94217"
+             style="font-size:20px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier New;-inkscape-font-specification:Sans Bold"
+             xml:space="preserve"><tspan
+               y="145.32278"
+               x="418.94217"
+               id="tspan3240-3-5"
+               sodipodi:role="line">TOK_OP</tspan></text>
+          <rect
+             ry="0"
+             y="106.44242"
+             x="474.30984"
+             height="69.274422"
+             width="109.27442"
+             id="rect3242-3-7-9"
+             style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.72558147;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+          <text
+             sodipodi:linespacing="125%"
+             id="text3238-5-8-3"
+             y="147.24661"
+             x="529.44507"
+             style="font-size:20px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier New;-inkscape-font-specification:Sans Bold"
+             xml:space="preserve"><tspan
+               y="147.24661"
+               x="529.44507"
+               id="tspan3240-3-7-1"
+               sodipodi:role="line">SUB</tspan></text>
+        </g>
+        <g
+           transform="translate(109.44098,60.435691)"
+           id="g4328-7">
+          <rect
+             ry="0"
+             y="106.44242"
+             x="364.30984"
+             height="69.274422"
+             width="109.27442"
+             id="rect3242-3-6"
+             style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.72558147;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+          <text
+             sodipodi:linespacing="125%"
+             id="text3238-5-4"
+             y="145.32278"
+             x="418.94217"
+             style="font-size:20px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier New;-inkscape-font-specification:Sans Bold"
+             xml:space="preserve"><tspan
+               y="145.32278"
+               x="418.94217"
+               id="tspan3240-3-54"
+               sodipodi:role="line">TOK_OP</tspan></text>
+          <rect
+             ry="0"
+             y="106.44242"
+             x="474.30984"
+             height="69.274422"
+             width="109.27442"
+             id="rect3242-3-7-3"
+             style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.72558147;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+          <text
+             sodipodi:linespacing="125%"
+             id="text3238-5-8-4"
+             y="147.24661"
+             x="529.44507"
+             style="font-size:20px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier New;-inkscape-font-specification:Sans Bold"
+             xml:space="preserve"><tspan
+               y="147.24661"
+               x="529.44507"
+               id="tspan3240-3-7-18"
+               sodipodi:role="line">DIV</tspan></text>
+        </g>
+      </g>
+    </g>
+    <g
+       id="g4939"
+       transform="translate(11.985795,0)">
+      <text
+         sodipodi:linespacing="125%"
+         id="text3108-2-9-1"
+         y="52.738926"
+         x="158.12167"
+         style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier New;-inkscape-font-specification:Courier New"
+         xml:space="preserve"><tspan
+           style="font-weight:bold;-inkscape-font-specification:Courier New Bold"
+           id="tspan3112-88-8-4"
+           y="52.738926"
+           x="158.12167"
+           sodipodi:role="line">Números</tspan></text>
+      <g
+         transform="translate(-316.60663,-36.020579)"
+         id="g4328-8">
+        <rect
+           style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.72558147;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+           id="rect3242-3-12"
+           width="109.27442"
+           height="69.274422"
+           x="364.30984"
+           y="106.44242"
+           ry="0" />
+        <text
+           xml:space="preserve"
+           style="font-size:20px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier New;-inkscape-font-specification:Sans Bold"
+           x="418.94217"
+           y="145.32278"
+           id="text3238-5-5"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3240-3-6"
+             x="418.94217"
+             y="145.32278">TOK_NUM</tspan></text>
+        <rect
+           style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.72558147;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+           id="rect3242-3-7-96"
+           width="109.27442"
+           height="69.274422"
+           x="474.30984"
+           y="106.44242"
+           ry="0" />
+        <text
+           xml:space="preserve"
+           style="font-size:20px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier New;-inkscape-font-specification:Sans Bold"
+           x="529.44507"
+           y="147.24661"
+           id="text3238-5-8-0"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3240-3-7-4"
+             x="529.44507"
+             y="147.24661">?</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g4921"
+       transform="translate(-32.732089,-1.015625)">
+      <text
+         sodipodi:linespacing="125%"
+         id="text3108-2-9-1-5"
+         y="52.738926"
+         x="914.04248"
+         style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier New;-inkscape-font-specification:Courier New"
+         xml:space="preserve"><tspan
+           style="font-weight:bold;-inkscape-font-specification:Courier New Bold"
+           id="tspan3112-88-8-4-4"
+           y="52.738926"
+           x="914.04248"
+           sodipodi:role="line">Pontuação: ( )</tspan></text>
+      <g
+         transform="translate(439.31418,-36.020579)"
+         id="g4328-8-0">
+        <rect
+           style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.72558147;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+           id="rect3242-3-12-0"
+           width="109.27442"
+           height="69.274422"
+           x="364.30984"
+           y="106.44242"
+           ry="0" />
+        <text
+           xml:space="preserve"
+           style="font-size:20px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier New;-inkscape-font-specification:Sans Bold"
+           x="418.94217"
+           y="145.32278"
+           id="text3238-5-5-3"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3240-3-6-0"
+             x="418.94217"
+             y="145.32278">TOK_PONT</tspan></text>
+        <rect
+           style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.72558147;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+           id="rect3242-3-7-96-5"
+           width="109.27442"
+           height="69.274422"
+           x="474.30984"
+           y="106.44242"
+           ry="0" />
+        <text
+           xml:space="preserve"
+           style="font-size:20px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier New;-inkscape-font-specification:Sans Bold"
+           x="529.44507"
+           y="147.24661"
+           id="text3238-5-8-0-8"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3240-3-7-4-0"
+             x="529.44507"
+             y="147.24661">PARAESQ</tspan></text>
+      </g>
+      <g
+         transform="translate(439.31418,42.435691)"
+         id="g4328-8-0-6">
+        <rect
+           style="fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.72558147;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+           id="rect3242-3-12-0-8"
+           width="109.27442"
+           height="69.274422"
+           x="364.30984"
+           y="106.44242"
+           ry="0" />
+        <text
+           xml:space="preserve"
+           style="font-size:20px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier New;-inkscape-font-specification:Sans Bold"
+           x="418.94217"
+           y="145.32278"
+           id="text3238-5-5-3-9"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3240-3-6-0-8"
+             x="418.94217"
+             y="145.32278">TOK_PONT</tspan></text>
+        <rect
+           style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.72558147;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+           id="rect3242-3-7-96-5-2"
+           width="109.27442"
+           height="69.274422"
+           x="474.30984"
+           y="106.44242"
+           ry="0" />
+        <text
+           xml:space="preserve"
+           style="font-size:20px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Courier New;-inkscape-font-specification:Sans Bold"
+           x="529.44507"
+           y="147.24661"
+           id="text3238-5-8-0-8-8"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3240-3-7-4-0-3"
+             x="529.44507"
+             y="147.24661">PARADIR</tspan></text>
+      </g>
+    </g>
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1, 4;stroke-dashoffset:0"
+       id="rect4950-2"
+       width="234.93732"
+       height="202.69102"
+       x="763.06049"
+       y="27.108761"
+       ry="26.18462" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1, 4;stroke-dashoffset:0"
+       id="rect4950-2-8"
+       width="234.93732"
+       height="202.69102"
+       x="51.857563"
+       y="27.108761"
+       ry="26.18462" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:1, 4;stroke-dashoffset:0"
+       id="rect4950-2-7"
+       width="464.58173"
+       height="202.69098"
+       x="293.45114"
+       y="27.616573"
+       ry="26.18462" />
+  </g>
+</svg>
