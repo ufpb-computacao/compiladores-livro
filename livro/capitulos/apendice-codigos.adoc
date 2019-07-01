@@ -2,7 +2,7 @@
 [[app_code]]
 == Códigos completos
 
-Neste capítulo apresentamos os códigos completos dos arquivos, 
+Neste capítulo, apresentamos os códigos completos dos arquivos, 
 pois durante os capítulos optamos por apresentar, didaticamente, 
 apenas os trechos mais relevantes ao que estava sendo explicado.
 
